@@ -1,5 +1,5 @@
 # Daily_quote
-Code that print a random daily quote from a txt file of quotes.
+Code that print a random daily quote from a txt file of quotes on your terminal.
 
 In order to make it print in the terminal right after you open it, you just need to open your `.bashrc` or `.zshrc` depending on the terminal and run the code by acessing with `nano ~/.bashrc` (or any code editor you like). 
 
