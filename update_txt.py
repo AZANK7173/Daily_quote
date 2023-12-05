@@ -11,4 +11,9 @@ def add_lines_to_file(file_name):
         file.write(f"{quote}\n")
 
 if __name__ == "__main__":
-    add_lines_to_file("fortunes.txt")
+    response = input("Do you want to add today's new quote to the file? [Y/n]: ")
+    if response.lower() == 'y':
+        add_lines_to_file("fortunes.txt")
+        print("Quote added successfully!")
+    else:
+        print("Ok, bye!")
