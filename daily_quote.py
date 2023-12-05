@@ -1,7 +1,7 @@
 
 def open_file():
     lines = []
-    with open('daily_quote/fortunes.txt') as f:
+    with open('fortunes.txt') as f:
         lines = f.readlines()
     return lines
 
